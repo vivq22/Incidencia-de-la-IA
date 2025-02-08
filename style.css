@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/*Nav*/
+header nav {
+    background-color: #26a69a;
+}
+
+.nav-wrapper img {
+    width: 85px;
+    height: 75px;
+}
+
+/*Hero*/
+
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+}
+
+.parallax-container .parallax {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255,255,255,.9);
+  }
+    .parallax-container .section {
+      width: 100%;
+    }
+
+    /*Pasar img a fondo*/
+
+    .container .img {
+        background-image: url("https://www.innovaitors.ai/wp-content/uploads/2024/06/Quienes-utilizan-la-IA-Generativa-1080x675.webp");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 500px;
+    }
+
+/*Footer*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Cartas*/
+
+main h2{
+    font-size: 20px;
+    color: #000000;
+}
+
+main .tips{
+    background-color: #26a69a;
+    padding: 0.5rem;
+}
+
+main div div div div img{
+    height: 350px;
+}
+
+
+
+
+@media screen and (max-width: 728px) {
+    
+
+}
